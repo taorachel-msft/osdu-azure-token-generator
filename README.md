@@ -26,7 +26,6 @@ Once you have your token, all you need to do use use your token in authorization
 
 | Argument | Description | Default |
 |----------|-------------|---------|
-| --tenant, -t | The tenant id of the environment you are generating the token for | AzureGlobal1 tenant id |
 | --env, -e | Target OSDU environment ex. stg, glab | glab |
 | --log-level, -l | Logging level of the application ex. INFO, DEBUG, ERROR | INFO |
 
@@ -57,5 +56,5 @@ To do so in linux, modify your `.bashrc` file to include:
 If not using a virtual environment, you can remove the explicit path to the python executable.
 
 Then, you should be able to use your script anywhere by running:
-`get-token [-t] [-e] [-l]`
+`get-token [-e] [-l]`
 

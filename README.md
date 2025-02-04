@@ -26,13 +26,23 @@ Once you have your token, all you need to do use use your token in authorization
 
 | Argument | Description | Default |
 |----------|-------------|---------|
-| --tenant, -t | The tenant id of the environment you are generating the token for | AzureGlobal1 |
+| --tenant, -t | The tenant id of the environment you are generating the token for | AzureGlobal1 tenant id |
 | --env, -e | Target OSDU environment ex. stg, glab | glab |
 | --log-level, -l | Logging level of the application ex. INFO, DEBUG, ERROR | INFO |
 
-## Environment yaml
+## Environments yaml
 
 This tool uses a yaml file to store environment key vault information so the tool knows which key vault to pull the required secret and client id data from.
+
+An example of the yaml file is as follows:
+```yaml
+glab:
+	key_vault_uri: value
+stg:
+	key_vault_uri: value
+test:
+	key_vault_uri: value
+```
 
 # Tips and Tricks
 

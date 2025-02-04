@@ -24,9 +24,11 @@ Once you have your token, all you need to do use use your token in authorization
 
 ## Arguments
 
-`--tenant` (`-t`): The tenant id of the environment you are generating the token for. Default is AzureGlobal1
-`--env` (`e`): Target OSDU environment ex. stg, glab
-`--log-level` (`-l`): Logging level of the application ex. INFO, DEBUG, ERROR
+| Argument | Description | Default |
+|----------|-------------|---------|
+| --tenant, -t | The tenant id of the environment you are generating the token for | AzureGlobal1 |
+| --env, -e | Target OSDU environment ex. stg, glab | glab |
+| --log-level, -l | Logging level of the application ex. INFO, DEBUG, ERROR | INFO |
 
 ## Environment yaml
 
@@ -40,7 +42,7 @@ It could be beneficial to create an alias to run the script from anywhere.
 To do so in linux, modify your `.bashrc` file to include:
 `alias get-token="/path/to/venv/[bin | Script]/python /path/to/repo/run.py"`
 
-* Note the path to your python executable will be different depending on your version of python
+*Note the path to your python executable will be different depending on your version of python*
 
 If not using a virtual environment, you can remove the explicit path to the python executable.
 

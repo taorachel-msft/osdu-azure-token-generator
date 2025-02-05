@@ -28,7 +28,7 @@ Once you have your token, all you need to do use use your token in authorization
 
 | Argument | Description | Default |
 |----------|-------------|---------|
-| --env, -e | Target OSDU environment ex. stg, glab | glab |
+| --env, -e | Target OSDU environment ex. stg, glab | preship |
 | --log-level, -l | Logging level of the application ex. INFO, DEBUG, ERROR | INFO |
 
 ## Environments yaml

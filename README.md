@@ -18,6 +18,8 @@ https://learn.microsoft.com/en-us/azure/energy-data-services/concepts-authentica
 5. Log into Azure CLI using `az login [--use-device-code --tenant <tenant-id>]`
 6. Run the script with `python run.py`
 
+![Example Run](./example_run.png)
+
 Once you have your token, all you need to do use use your token in authorization header or in the swagger ui
 
 # Configuration

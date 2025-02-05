@@ -2,3 +2,5 @@ glab:
   key_vault_uri:
 stg:
   key_vault_uri:
+preship:
+  key_vault_uri:
